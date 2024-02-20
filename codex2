@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code{X}</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+        header, footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: red;
+        }
+        section {
+            padding: 20px;
+        }
+        .team-member {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .team-member div {
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+        }
+        .event {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Code{X}</h1>
+        <h2 class="TextType">Code. Create. Innovate</h2>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#events">Events</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This is a brief description of our club.</p>
+    </section>
+
+    <section id="events">
+        <h2>Events Sneak Peek</h2>
+        <div class="event">
+            <h3>Event Name 1</h3>
+            <p>Date: January 1, 2024</p>
+            <p>Description: About the event.</p>
+        </div>
+        <div class="event">
+            <h3>Event Name 2</h3>
+            <p>Date: February 1, 2024</p>
+            <p>Description: About the event.</p>
+        </div>
+        <!-- Add more events as needed -->
+    </section>
+    
+    <section id="team">
+        <h2>Our Team</h2>
+        
+        <h3>Mentors</h3>
+        <div class="team-member">
+            <div>
+                <img src="mentor1.jpg" alt="Mentor 1">
+                <h3>Mentor 1</h3>
+                <p>Position</p>
+            </div>
+            <div>
+                <img src="mentor2.jpg" alt="Mentor 2">
+                <h3>Mentor 2</h3>
+                <p>Position</p>
+            </div>
+            <!-- Add more mentors as needed -->
+        </div>
+        
+        <h3>Core Members</h3>
+        <div class="team-member">
+            <div>
+                <img src="core-member1.jpg" alt="Core Member 1">
+                <h3>Core Member 1</h3>
+                <p>Position</p>
+            </div>
+            <div>
+                <img src="core-member2.jpg" alt="Core Member 2">
+                <h3>Core Member 2</h3>
+                <p>Position</p>
+            </div>
+            <!-- Add more core members as needed -->
+        </div>
+        
+        <h3>Executives</h3>
+        <div class="team-member">
+            <div>
+                <img src="executive1.jpg" alt="Executive 1">
+                <h3>Executive 1</h3>
+                <p>Position</p>
+            </div>
+            <div>
+                <img src="executive2.jpg" alt="Executive 2">
+                <h3>Executive 2</h3>
+                <p>Position</p>
+            </div>
+            <!-- Add more executives as needed -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>Follow Us:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+</body>
+</html>
